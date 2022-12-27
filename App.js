@@ -17,7 +17,7 @@ const App = () => {
   const state = useSelector(state => state)
   return (
       <View style={{ flex: 1}}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Welcome</Text>
       <Text style={{...styles.txtt}}>{state}</Text>
       <View style={{ flexDirection: "row" }}>
         <TouchableHighlight style={{ ...styles.btn }} onPress={() => dispatch(decrement())}>
